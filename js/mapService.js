@@ -16,7 +16,9 @@ function showPosition(position) {
   var currentPosition = [lat, lon];
   if (
     window.location.pathname == "/nistromShop/" ||
-    window.location.pathname == "/nistromShop/index.html"
+    window.location.pathname == "/nistromShop/index.html" ||
+    window.location.pathname == "/index.html" ||
+    window.location.pathname == "/"
   ) {
     getMap(currentPosition, "Вы здесь");
   }
