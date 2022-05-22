@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="logo d-flex align-items-center">
+          <a href="#">
+            <img src="img/logo.png" alt="logo" />
+          </a>
+          <h1 class="logo-text">Nistrom Shop</h1>
+          <div class="location d-flex align-items-center">
+            <i class="fas fa-map-marker-alt"></i>
+            <p id="location-text"></p>
+          </div>
+        </div>
+        <nav class="header-nav">
+          <a href="#">Главная</a>
+          <a href="blog.html">Блог</a>
+          <a href="grid.html">Размерная сетка</a>
+          <a href="about.html">О нас</a>
+          <a href="contacts.html">Контакты</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="standart-section shoes-wrap">
+        <div class="container">
+          <h3 class="section-title text-center text-uppercase">
+            Доступные товары
+          </h3>
+          <div class="row d-flex text-wrap">
+            <div class="col-4">
+              <div class="shoes-item">
+                <div class="shoes-date text-center">
+                  <span>Скидка</span>
+                  <span>20%</span>
+                </div>
+                <a href="#" class="shoes-img text-center">
+                  <img src="img/woman-1.jpg" alt="shoes node" />
+                </a>
+                <h6 class="shoes-title">
+                  <a href="#">Chanel White-Orange</a>
+                </h6>
+                <div class="shoes-price text-right">
+                  <span>3700грн.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="shoes-item">
+                <a href="#" class="shoes-img text-center">
+                  <img src="img/man-1.jpg" alt="shoes node" />
+                </a>
+                <h6 class="shoes-title"><a href="#">New Balance Black</a></h6>
+                <div class="shoes-price text-right">
+                  <span>6000грн.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="shoes-item">
+                <a href="#" class="shoes-img text-center">
+                  <img src="img/woman-2.jpg" alt="shoes node" />
+                </a>
+                <h6 class="shoes-title"><a href="#">Snigeria White</a></h6>
+                <div class="shoes-price text-right">
+                  <span>2100грн.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="shoes-item">
+                <a href="#" class="shoes-img text-center">
+                  <img src="img/man-2.jpg" alt="shoes node" />
+                </a>
+                <h6 class="shoes-title"><a href="#">Ultra Black-White</a></h6>
+                <div class="shoes-price text-right">
+                  <span>1000грн.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="shoes-item">
+                <a href="#" class="shoes-img text-center">
+                  <img src="img/woman-3.jpg" alt="shoes node" />
+                </a>
+                <h6 class="shoes-title"><a href="#">Fila White</a></h6>
+                <div class="shoes-price text-right">
+                  <span>4500грн.</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="shoes-item">
+                <a href="#" class="shoes-img text-center">
+                  <img src="img/man-3.jpg" alt="shoes node" />
+                </a>
+                <h6 class="shoes-title">
+                  <a href="#">Reebok Limited Gray</a>
+                </h6>
+                <div class="shoes-price text-right">
+                  <span>5000грн.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about-us standart-section text-center">
+        <div class="container">
+          <h3 class="section-title text-uppercase">Спецпредложения</h3>
+          <p class="about-us-text">
+            Мы благодарим вас за выбор нашего интернет-магазина. Мы ценим ваше
+            доверие и рады предложить участие в Программе лояльности «Лучший
+            Покупатель». Эта программа предполагает предоставление постоянным
+            клиентам скидок и привилегий. Получая дисконтную карту, вы
+            становитесь нашим особым клиентом и обладателем максимальных
+            привилегий.
+          </p>
+          <a href="#" class="btn btn-default"><b>Подробнее</b></a>
+        </div>
+      </section>
+      <section class="about-us standart-section text-center">
+        <div class="container">
+          <h3 class="section-title text-uppercase">Карта</h3>
+          <div class="map d-flex">
+            <div id="map"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="js/mapService.js"></script>
+  </body>
+</html>

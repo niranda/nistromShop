@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="logo d-flex align-items-center">
+          <a href="#">
+            <img src="img/logo.png" alt="logo" />
+          </a>
+          <h1 class="logo-text">Nistrom Shop</h1>
+          <div class="location d-flex align-items-center">
+            <i class="fas fa-map-marker-alt"></i>
+            <p id="location-text"></p>
+          </div>
+        </div>
+        <nav class="header-nav">
+          <a href="index.html">Главная</a>
+          <a href="blog.html">Блог</a>
+          <a href="grid.html">Размерная сетка</a>
+          <a href="about.html">О нас</a>
+          <a href="#">Контакты</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="standart-section shoes-wrap">
+        <div class="container">
+          <h3 class="section-title text-center text-uppercase">Контакты</h3>
+          <div class="row d-flex text-wrap">
+            <div class="blog-item contacts-container d-flex align-items-center">
+              <ol class="contacts-list">
+                <li>
+                  <b>Наша электронная почта:</b>
+                  <ol>
+                    <li><a href="mailto:test@test.com"> test@test.com</a></li>
+                    <li>
+                      <a href="mailto:newerttest@test.com">
+                        newertest@test.com</a
+                      >
+                    </li>
+                    <li>
+                      <a href="mailto:newesttest@test.com">
+                        newesttest@test.com</a
+                      >
+                    </li>
+                  </ol>
+                </li>
+                <li>
+                  <b>Телефоны:</b>
+                  <dl>
+                    <dt>Юлия Олегова, HR-менеджер</dt>
+                    <dd><a href="tel:380230230230"> +380230230230</a></dd>
+                    <dt>Анна Вадимова, HR-менеджер</dt>
+                    <dd><a href="tel:380929238923"> +380929238923</a></dd>
+                    <dt>Алла Зеленцова, HR-менеджер</dt>
+                    <dd><a href="tel:380273237892"> +380273237892</a></dd>
+                    <dt>Алина Хилько, HR-менеджер</dt>
+                    <dd><a href="tel:380236532822"> +380236532822</a></dd>
+                  </dl>
+                </li>
+              </ol>
+
+              <ul class="contacts-list">
+                <li>
+                  <b>Адреса:</b>
+                  <ul>
+                    <li>
+                      Директор главного офиса <b>Евгений Смирнов</b>
+                      <br />
+                      Адрес офиса: ул. Белая 32, г. Харьков, <br />Украина
+                    </li>
+                    <li>
+                      Директор ShoesToGo <b>Юлия Смирнова</b> <br />
+                      Адрес офиса: ул. Белая 200, г. Харьков, <br />Украина
+                    </li>
+                    <li>
+                      Менеджер HR отдела <b>Ольга Муромцева</b> <br />
+                      Адрес офиса: ул. Чёрная 187, г. Харьков, <br />Украина
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="js/mapService.js"></script>
+  </body>
+</html>

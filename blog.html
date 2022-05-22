@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="logo d-flex align-items-center">
+          <a href="#">
+            <img src="img/logo.png" alt="logo" />
+          </a>
+          <h1 class="logo-text">Nistrom Shop</h1>
+          <div class="location d-flex align-items-center">
+            <i class="fas fa-map-marker-alt"></i>
+            <p id="location-text"></p>
+          </div>
+        </div>
+        <nav class="header-nav">
+          <a href="index.html">Главная</a>
+          <a href="#">Блог</a>
+          <a href="grid.html">Размерная сетка</a>
+          <a href="about.html">О нас</a>
+          <a href="contacts.html">Контакты</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="standart-section shoes-wrap">
+        <div class="container">
+          <h3 class="section-title text-center text-uppercase">Блог</h3>
+          <div class="row d-flex text-wrap">
+            <div class="blog-item">
+              <h1>Выставка кроссовок</h1>
+              <div
+                id="blog-presentation-picture"
+                class="blog-picture d-flex justify-content-between align-items-center"
+              >
+                <a src="#" class="blog-link">
+                  <img src="img/1.jpg" alt="" />
+                </a>
+              </div>
+              <p>
+                Не так давно состоялась ежегодная выставка кроссовок "Sneakers
+                Awards 2022". На выставке были представлены разнообразные модели
+                обуви от самых популярных производителей и их саб-брендов. Гости
+                имели возможность ознакомиться с инновациями в обувной
+                индустрии, а также прямо на месте заключить договор о поставках
+                с представителями.
+              </p>
+            </div>
+            <div class="blog-item">
+              <h1>Наши сотрудники</h1>
+              <div
+                id="blog-office-picture"
+                class="blog-picture d-flex justify-content-between align-items-center"
+              >
+                <a src="#" class="blog-link">
+                  <img src="img/office-1.jpg" alt="" />
+                </a>
+              </div>
+              <p>
+                Сотрудники отдела продаж поставили рекорд по количеству
+                реализованных пар обуви за квартал. В этот раз им удалось
+                выручить средства, в два раза превышающие прошлые показатели. Мы
+                гордимся нашими работниками, и продолжаем общими усилями
+                радовать наших клиентов качественным обслуживанием.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/imageService.js"></script>
+    <script type="module" src="js/mapService.js"></script>
+  </body>
+</html>
